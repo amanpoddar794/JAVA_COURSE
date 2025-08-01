@@ -14,6 +14,7 @@ public class practice {
         // // for (int i = 1; i <= a; i++) {
         // // factorial = factorial * i;
         // // }
+        // int factorial = 1;
         // while (a > 0) {
         // int dec = a--;
         // factorial = factorial * dec;
@@ -30,6 +31,61 @@ public class practice {
         // }
         // System.out.println(sum);
 
-        // Aman
+        // int orignal = a;
+        // int rev = 0;
+        // // while (a > 0) {
+        // // int lastDigit = a % 10;
+        // // a = a / 10;
+        // // rev = rev * 10 + lastDigit;
+        // // }
+        // do {
+        // int lastDigit = a % 10;
+        // a = a / 10;
+        // rev = rev * 10 + lastDigit;
+        // } while (a > 0);
+        // System.out.println(rev);
+
+        // int orignal = a;
+        // int count = 0;
+        // a = Math.abs(a);
+        // if (a == 0) {
+        // count = 1;
+        // } else {
+        // while (a > 0) {
+        // int lastDigit = a % 10;
+        // a = a / 10;
+        // count++;
+        // }
+        // }
+        // System.out.println(count);
+
+        // int orignal = a;
+        // int rev = 0;
+        // while (a > 0) {
+        // int lastDigit = a % 10;
+        // a = a / 10;
+        // rev = rev * 10 + lastDigit;
+        // }
+        // if (orignal == rev) {
+        // System.out.println("Palindrome");
+        // } else {
+        // System.out.println("Not Palindrome");
+        // }
+
+        // for (int i = 1; i <= a; i++) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("*");
+        // }
+        // System.out.println();
+        // }
+
+        // int num = 1;
+        // for (int i = 1; i <= a; i++) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print(num + " ");
+        // num++;
+        // }
+        // System.out.println();
+        // }
     }
 }
