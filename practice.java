@@ -10,7 +10,7 @@ public class practice {
         // System.out.print(a * i + " ");
         // }
 
-        // int factorial = 1;
+        // // int factorial = 1;
         // // for (int i = 1; i <= a; i++) {
         // // factorial = factorial * i;
         // // }
@@ -21,7 +21,7 @@ public class practice {
         // }
         // System.out.println(factorial);
 
-        // int sum = 0;
+        // // int sum = 0;
         // // for (int i = 1; i <= a; i++) {
         // // sum = sum + i;
         // // }
@@ -31,8 +31,8 @@ public class practice {
         // }
         // System.out.println(sum);
 
-        // int orignal = a;
-        // int rev = 0;
+        // // int orignal = a;
+        // // int rev = 0;
         // // while (a > 0) {
         // // int lastDigit = a % 10;
         // // a = a / 10;
@@ -87,5 +87,18 @@ public class practice {
         // }
         // System.out.println();
         // }
+
+        for (int i = 1; i <= a; i++) {
+            for (int sp = a - i; sp > 0; sp--) {
+                System.out.print(" ");
+            }
+            int num = 1;
+            for (int j = 0; j < i; j++) {
+                System.out.print(num + " ");
+                num = num * (i - 1 - j) / (j + 1);
+            }
+            System.out.println();
+        }
+
     }
 }
