@@ -104,6 +104,77 @@ public class practice {
     // return count;
     // }
 
+    // public static int findGCD(int a, int b) {
+    // int gcd = 1;
+    // Math.min(a, b);
+    // for (int i = 1; i <= Math.min(a, b); i++) {
+    // if (a % i == 0 && b % i == 0) {
+    // gcd = i;
+    // }
+    // }
+    // System.out.println("GCD of " + a + " and " + b + " is " + gcd);
+    // return gcd;
+    // }
+
+    // public static int armstrong(int n) {
+    // int orignal = n;
+    // int digit = 0;
+    // int sum = 0;
+    // while (n > 0) {
+    // int last = n % 10;
+    // n = n / 10;
+    // digit = last * last * last;
+    // sum = digit + sum;
+    // // System.out.println(digit);
+    // }
+    // if (orignal == sum) {
+    // System.out.println(orignal + " is Armstrong");
+    // } else {
+    // System.out.println(orignal + " is not Armstrong");
+    // }
+    // return orignal;
+    // }
+
+    // public static void printPrimes(int n) {
+    // for (int i = 2; i <= n; i++) {
+    // boolean isPrime = true;
+    // for (int j = 2; j < i; j++) {
+    // if (i % j == 0) {
+    // isPrime = false;
+    // break;
+    // }
+    // }
+    // if (isPrime) {
+    // System.out.print(i + " ");
+    // }
+    // }
+    // }
+
+    // public static void digitSum(int n) {
+    // int sum = 0;
+    // while (n > 0) {
+    // int last = n % 10;
+    // n = n / 10;
+    // sum = last + sum;
+    // }
+    // System.out.println(sum);
+    // return;
+    // }
+
+    public static void printFibonacci(int n) {
+        int first = 0;
+        int second = 1;
+        int next = 0;
+        for (int i = 2; i <= n - 2; i++) {
+            System.out.print(first + " ");
+            System.out.print(second + " ");
+            next = first + second;
+            System.out.print(next + " ");
+            first = second;
+            second = next;
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -142,5 +213,21 @@ public class practice {
 
         // int n = sc.nextInt();
         // System.out.println(digitCount(n));
+
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // findGCD(a, b);
+
+        // int n = sc.nextInt();
+        // armstrong(n);
+
+        // int n = sc.nextInt();
+        // printPrimes(n);
+
+        // int n = sc.nextInt();
+        // digitSum(n);
+
+        int n = sc.nextInt();
+        printFibonacci(n);
     }
 }
