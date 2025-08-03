@@ -8,83 +8,39 @@ public class HomeWork2 {
 
     // Ans -
 
-    //
+    // public static boolean isPrime(int n) {
+    // boolean isPrime = true;
+    // if (n <= 1)
+    // return false;
+    // for (int i = 2; i <= n / 2; i++) {
+    // if (n % i == 0) {
+    // return false;
+    // }
+    // }
+    // return true;
+    // }
 
     // Q2. Make a function to check if a given number n is even or not.
 
     // Ans -
 
-    //
+    // public static void numberCheck(int n) {
+    // if (n % 2 == 0) {
+    // System.out.println(n + " is Even");
+    // } else {
+    // System.out.println(n + " is Odd");
+    // }
+    // }
 
     // Q3. Make a function to print the table of a given number n.
 
     // Ans -
 
-    //
-
-    // Lecture - 8 {Function in Java(Practice Questions)}
-
-    // Q1. Enter 3 numbers from the user & make a function to print their average.
-
-    // Ans -
-
-    //
-
-    // Q2. Write a function to print the sum of all odd numbers from 1 to n.
-
-    // Ans -
-
-    //
-
-    // Q3. Write a function which takes in 2 numbers and returns the greater of
-    // those two.
-
-    // Ans -
-
-    //
-
-    // Q4. Write a function that takes in the radius as input and returns the
-    // circumference of a circle.
-
-    // Ans -
-
-    //
-
-    // Q5. Write a function that takes in age as input and returns if that person is
-    // eligible to vote or not.
-    // A person of age > 18 is eligible to vote.
-
-    // Ans -
-
-    //
-
-    // Q6. Write an infinite loop using do while condition.
-
-    // Ans -
-
-    //
-
-    // Q7. Write a program to enter the numbers till the user wants and at the end
-    // it
-    // should display the count of positive, negative and zeros entered.
-
-    // Ans -
-
-    //
-
-    // Q8. Two numbers are entered by the user, x and n. Write a function to find
-    // the value of one number raised to the power of another i.e. x^n.
-
-    // Ans -
-
-    //
-
-    // Q9. Write a function that calculates the Greatest Common Divisor of 2
-    // numbers.
-
-    // Ans -
-
-    //
+    // public static void printTable(int n) {
+    // for (int i = 1; i <= 10; i++) {
+    // System.out.println(n + " x " + i + " = " + n * i);
+    // }
+    // }
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -95,69 +51,26 @@ public class HomeWork2 {
 
         // Ans -
 
-        //
+        // int n = sc.nextInt();
+        // if (isPrime(n)) {
+        // System.out.println(n + " is Prime");
+        // } else {
+        // System.out.println(n + " is not Prime");
+        // }
 
         // Q2.
 
         // Ans -
 
-        //
+        // int n = sc.nextInt();
+        // numberCheck(n);
 
         // Q3.
 
         // Ans -
 
-        //
-
-        // Lecture - 8 {Function in Java(Practice Questions)}
-
-        // Q1.
-
-        // Ans -
-
-        //
-
-        // Q2.
-
-        // Ans -
-
-        //
-
-        // Q3.
-
-        // Ans -
-
-        //
-
-        // Q4.
-
-        // Ans -
-
-        //
-
-        // Q5.
-
-        // Ans -
-
-        //
-
-        // Q6.
-
-        // Ans -
-
-        //
-
-        // Q7.
-
-        // Ans -
-
-        //
-
-        // Q8.
-
-        // Ans -
-
-        //
+        // int n = sc.nextInt();
+        // printTable(n);
 
     }
 }
