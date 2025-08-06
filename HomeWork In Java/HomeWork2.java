@@ -114,48 +114,37 @@ public class HomeWork2 {
     // }
 
     // Q7. Write a program to enter the numbers till the user wants and at the end
-    // it
-    // should display the count of positive, negative and zeros entered.
+    // it should display the count of positive, negative and zeros entered.
 
     // Ans -
 
-    public static void numberCheck() {
-        int positive = 0;
-        int negative = 0;
-        int zeros = 0;
-        int n = 1;
-        if (n == 1) {
-            int a = 0;
-            do {
-                if (a > 0) {
-                    positive++;
-                } else if (a < 0) {
-                    negative++;
-                } else {
-                    zeros++;
-                }
-            } while (n != 0);
-            System.out.println(positive);
-            System.out.println(negative);
-            System.out.println(zeros);
-        } else {
-            System.out.println("Thank You!");
-        }
-    }
+    // iska answer niche hai
 
     // Q8. Two numbers are entered by the user, x and n. Write a function to find
     // the value of one number raised to the power of another i.e. x^n.
 
     // Ans -
 
-    //
+    // public static double getSquare(int x, int n) {
+    // double square = Math.pow(x, n);
+    // return square;
+    // }
 
     // Q9. Write a function that calculates the Greatest Common Divisor of 2
     // numbers.
 
     // Ans -
 
-    //
+    // public static int fingGCD(int a, int b) {
+    // int gcd = 1;
+    // Math.min(a, b);
+    // for (int i = 1; i < Math.min(a, b); i++) {
+    // if (a % i == 0 && b % i == 0) {
+    // gcd = i;
+    // }
+    // }
+    // return gcd;
+    // }
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -238,14 +227,47 @@ public class HomeWork2 {
 
         // Ans -
 
-        int n = sc.nextInt();
-        int a = sc.nextInt();
-        numberCheck();
+        // System.out.println("Press 1 to continue and 0 for start: ");
+        // int i = sc.nextInt();
+        // int positive = 0;
+        // int negative = 0;
+        // int zeros = 0;
+        // if (i == 1) {
+        // do {
+        // System.out.print("Enter a number: ");
+        // int n = sc.nextInt();
+        // if (n > 0) {
+        // positive++;
+        // } else if (n < 0) {
+        // negative++;
+        // } else {
+        // zeros++;
+        // }
+        // System.out.println("Press 1 to continue and 0 for start: ");
+        // i = sc.nextInt();
+        // } while (i != 0);
+        // sc.close();
+        // } else {
+        // System.out.println("Thanku You!!");
+        // }
+        // System.out.println("Positive: " + positive);
+        // System.out.println("Negative: " + negative);
+        // System.out.println("Zeros: " + zeros);
+
         // Q8.
 
         // Ans -
 
-        //
+        // int x = sc.nextInt();
+        // int n = sc.nextInt();
+        // System.out.println(getSquare(x, n));
 
+        // Q9.
+
+        // Ans -
+
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // System.out.println("GCD of " + a + " & " + b + " is:" + fingGCD(a, b));
     }
 }
