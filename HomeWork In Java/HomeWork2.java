@@ -146,6 +146,28 @@ public class HomeWork2 {
     // return gcd;
     // }
 
+    // Q10. Write a program to print Fibonacci series of n terms where n is input by
+    // user :
+    // 0 1 1 2 3 5 8 13 21 .....
+    // In the Fibonacci series, a number is the sum of the previous 2 numbers that
+    // came before it.
+
+    // Ans -
+
+    public static void printFibonacci(int n) {
+        int first = 0;
+        int second = 1;
+        int next = 0;
+        System.out.print(first + " ");
+        System.out.print(second + " ");
+        for (int i = 3; i <= n; i++) {
+            next = first + second;
+            System.out.print(next + " ");
+            first = second;
+            second = next;
+        }
+    }
+
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
@@ -269,5 +291,12 @@ public class HomeWork2 {
         // int a = sc.nextInt();
         // int b = sc.nextInt();
         // System.out.println("GCD of " + a + " & " + b + " is:" + fingGCD(a, b));
+
+        // Q10.
+
+        // Ans -
+
+        int n = sc.nextInt();
+        printFibonacci(n);
     }
 }
