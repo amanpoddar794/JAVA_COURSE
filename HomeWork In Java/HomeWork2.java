@@ -154,19 +154,19 @@ public class HomeWork2 {
 
     // Ans -
 
-    public static void printFibonacci(int n) {
-        int first = 0;
-        int second = 1;
-        int next = 0;
-        System.out.print(first + " ");
-        System.out.print(second + " ");
-        for (int i = 3; i <= n; i++) {
-            next = first + second;
-            System.out.print(next + " ");
-            first = second;
-            second = next;
-        }
-    }
+    // public static void printFibonacci(int n) {
+    // int first = 0;
+    // int second = 1;
+    // int next = 0;
+    // System.out.print(first + " ");
+    // System.out.print(second + " ");
+    // for (int i = 1; i <= n - 2; i++) {
+    // next = first + second;
+    // System.out.print(next + " ");
+    // first = second;
+    // second = next;
+    // }
+    // }
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -296,7 +296,7 @@ public class HomeWork2 {
 
         // Ans -
 
-        int n = sc.nextInt();
-        printFibonacci(n);
+        // int n = sc.nextInt();
+        // printFibonacci(n);
     }
 }
