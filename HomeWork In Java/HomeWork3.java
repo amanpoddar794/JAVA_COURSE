@@ -11,24 +11,23 @@ public class HomeWork3 {
 
         // Ans-
 
-        // //Array Size Input
-        // System.out.print("Enter the size of inputs : ");
-        // int size = sc.nextInt();
+        // // Array Size Input
+        // System.out.println("Enter size of input: ");
+        // int input = sc.nextInt();
 
-        // //Array
-        // String[] names = new String[size];
+        // // Array
+        // String name[] = new String[input];
 
-        // //Loop for Input
-        // System.out.println("Now enter maximum " + size + " diffrents names : ");
-        // for (int i = 0; i < size; i++) {
-        // names[i] = sc.next();
+        // // Loop for Input
+        // System.out.println("Enter " + input + " multiple names: ");
+        // for (int i = 0; i < input; i++) {
+        // name[i] = sc.next();
         // }
-        // System.out.println();
 
-        // //Loop for Output
-        // System.out.println("Here is your name output: ");
-        // for (int i = 0; i < names.length; i++) {
-        // System.out.println("Name" + (i+1) + " is " + names[i]);
+        // // Loop for Output
+        // System.out.println("Here is your names: ");
+        // for (int i = 0; i < name.length; i++) {
+        // System.out.println((i + 1) + ". " + name[i]);
         // }
 
         // Q2. Find the maximum & minimum number in an array of integers.
@@ -36,35 +35,34 @@ public class HomeWork3 {
 
         // Ans-
 
-        // //Array size Input
-        // System.out.print("Enter the size of inputs : ");
+        // // Array size Input
+        // System.out.println("Enter size of input: ");
         // int size = sc.nextInt();
 
-        // //Array
-        // int num[] = new int[size];
+        // // Array
+        // int find[] = new int[size];
 
-        // //Loop for input
-        // System.out.println("Now enter maximum " + size + " diffrents names : ");
+        // // Loop for input
         // for (int i = 0; i < size; i++) {
-        // num[i] = sc.nextInt();
+        // find[i] = sc.nextInt();
         // }
 
-        // //Max/Min value initialize
+        // // Max/Min value initialize
         // int max = Integer.MIN_VALUE;
         // int min = Integer.MAX_VALUE;
 
-        // //Loop for Output
-        // for (int i = 0; i < num.length; i++) {
-        // if(num[i] < min){
-        // min = num[i];
-        // }else if(num[i] > max){
-        // max = num[i];
-        // }
+        // // Loop for Output
+        // for (int i = 0; i < find.length; i++) {
+        // if (find[i] < min) {
+        // min = find[i];
+        // } else if (find[i] > max) {
+        // max = find[i];
         // }
 
-        // //Print
-        // System.out.println("Largest number is : " + max);
-        // System.out.println("Smallest number is : " + min);
+        // }
+
+        // // Print
+        // System.out.println("Minimum = " + min + "\n" + "Maximum = " + max);
 
         // Q3. Take an array of numbers as input and check if it is an array sorted in
         // ascending order.
@@ -73,35 +71,34 @@ public class HomeWork3 {
 
         // Ans -
 
-        // //Array size input
-        // System.out.print("Enter the size of inputs : ");
-        // int size = sc.nextInt();
+        // Array size input
+        System.out.println("Enter size of input: ");
+        int size = sc.nextInt();
 
-        // //Array
-        // int num[] = new int[size];
+        // Array
+        int checkOrder[] = new int[size];
 
-        // //Loop for input
-        // System.out.println("Now enter maximum " + size + " diffrents names : ");
-        // for (int i = 0; i < size; i++) {
-        // num[i] = sc.nextInt();
-        // }
+        // Loop for input
+        for (int i = 0; i < size; i++) {
+            checkOrder[i] = sc.nextInt();
+        }
 
-        // //boolean tag
-        // boolean isAscending = true;
+        // boolean tag
+        boolean isAscending = true;
 
-        // //Checking, is this array in ascending order or not
-        // for (int i = 0; i < num.length-1; i++){
-        // if(num[i] > num[i+1]){
-        // isAscending = false;
-        // }
-        // }
+        // Checking, is this array in ascending order or not
+        for (int i = 0; i < checkOrder.length - 1; i++) {
+            if (checkOrder[i] > checkOrder[i + 1]) {
+                isAscending = false;
+            }
+        }
 
-        // //Print the result
-        // if(isAscending){
-        // System.out.println("The array is sorted in ascending order");
-        // }else{
-        // System.out.println("The array is not sorted in ascending order");
-        // }
+        // Print the result
+        if (isAscending) {
+            System.out.println("The array is shorted in Ascending order:");
+        } else {
+            System.out.println("The array is not shorted in Ascending order:");
+        }
 
         // Lecture - 11(2D Arrays)
 
