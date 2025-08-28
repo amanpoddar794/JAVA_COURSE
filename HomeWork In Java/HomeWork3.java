@@ -71,34 +71,34 @@ public class HomeWork3 {
 
         // Ans -
 
-        // Array size input
-        System.out.println("Enter size of input: ");
-        int size = sc.nextInt();
+        // // Array size input
+        // System.out.println("Enter size of input: ");
+        // int size = sc.nextInt();
 
-        // Array
-        int checkOrder[] = new int[size];
+        // // Array
+        // int checkOrder[] = new int[size];
 
-        // Loop for input
-        for (int i = 0; i < size; i++) {
-            checkOrder[i] = sc.nextInt();
-        }
+        // // Loop for input
+        // for (int i = 0; i < size; i++) {
+        // checkOrder[i] = sc.nextInt();
+        // }
 
-        // boolean tag
-        boolean isAscending = true;
+        // // boolean tag
+        // boolean isAscending = true;
 
-        // Checking, is this array in ascending order or not
-        for (int i = 0; i < checkOrder.length - 1; i++) {
-            if (checkOrder[i] > checkOrder[i + 1]) {
-                isAscending = false;
-            }
-        }
+        // // Checking, is this array in ascending order or not
+        // for (int i = 0; i < checkOrder.length - 1; i++) {
+        // if (checkOrder[i] > checkOrder[i + 1]) {
+        // isAscending = false;
+        // }
+        // }
 
-        // Print the result
-        if (isAscending) {
-            System.out.println("The array is shorted in Ascending order:");
-        } else {
-            System.out.println("The array is not shorted in Ascending order:");
-        }
+        // // Print the result
+        // if (isAscending) {
+        // System.out.println("The array is shorted in Ascending order:");
+        // } else {
+        // System.out.println("The array is not shorted in Ascending order:");
+        // }
 
         // Lecture - 11(2D Arrays)
 

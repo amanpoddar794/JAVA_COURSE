@@ -298,5 +298,7 @@ public class HomeWork2 {
 
         // int n = sc.nextInt();
         // printFibonacci(n);
+
+        // F&M done
     }
 }
